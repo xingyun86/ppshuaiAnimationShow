@@ -58,6 +58,75 @@
     <Image Include="res\AnimationShow.ico">
       <Filter>资源文件</Filter>
     </Image>
+    <Image Include="res\back.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Rabbit01.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Rabbit02.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Rabbit03.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Rabbit04.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Rabbit05.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Rabbit06.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Rabbit07.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Rabbit08.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Rabbit09.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Rabbit10.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Snow01.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Snow02.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Snow03.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Snow04.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Snow05.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Snow06.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Snow07.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Snow08.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Snow09.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Snow10.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Snow11.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Snow12.png">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="AnimationShow.rc">

@@ -13,13 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// 中文(中华人民共和国) resources
+// Chinese (Simplified, PRC) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
-#ifdef _WIN32
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 #pragma code_page(936)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -70,29 +68,30 @@ IDR_MAINFRAME           ICON                    "res\\AnimationShow.ico"
 //
 // PNG
 //
-BACK.PNG			    PNG                     "res\\back.png"
-RABBIT01.PNG			PNG                     "res\\Rabbit01.png"
-RABBIT02.PNG			PNG                     "res\\Rabbit02.png"
-RABBIT03.PNG			PNG                     "res\\Rabbit03.png"
-RABBIT04.PNG			PNG                     "res\\Rabbit04.png"
-RABBIT05.PNG			PNG                     "res\\Rabbit05.png"
-RABBIT06.PNG			PNG                     "res\\Rabbit06.png"
-RABBIT07.PNG			PNG                     "res\\Rabbit07.png"
-RABBIT08.PNG			PNG                     "res\\Rabbit08.png"
-RABBIT09.PNG			PNG                     "res\\Rabbit09.png"
-RABBIT10.PNG			PNG                     "res\\Rabbit10.png"
-SNOW01.PNG				PNG                     "res\\Snow01.png"
-SNOW02.PNG				PNG                     "res\\Snow02.png"
-SNOW03.PNG				PNG                     "res\\Snow03.png"
-SNOW04.PNG				PNG                     "res\\Snow04.png"
-SNOW05.PNG				PNG                     "res\\Snow05.png"
-SNOW06.PNG				PNG                     "res\\Snow06.png"
-SNOW07.PNG				PNG                     "res\\Snow07.png"
-SNOW08.PNG				PNG                     "res\\Snow08.png"
-SNOW09.PNG				PNG                     "res\\Snow09.png"
-SNOW10.PNG				PNG                     "res\\Snow10.png"
-SNOW11.PNG				PNG                     "res\\Snow11.png"
-SNOW12.PNG				PNG                     "res\\Snow12.png"
+
+BACK.PNG                PNG                     "res\\back.png"
+RABBIT01.PNG            PNG                     "res\\Rabbit01.png"
+RABBIT02.PNG            PNG                     "res\\Rabbit02.png"
+RABBIT03.PNG            PNG                     "res\\Rabbit03.png"
+RABBIT04.PNG            PNG                     "res\\Rabbit04.png"
+RABBIT05.PNG            PNG                     "res\\Rabbit05.png"
+RABBIT06.PNG            PNG                     "res\\Rabbit06.png"
+RABBIT07.PNG            PNG                     "res\\Rabbit07.png"
+RABBIT08.PNG            PNG                     "res\\Rabbit08.png"
+RABBIT09.PNG            PNG                     "res\\Rabbit09.png"
+RABBIT10.PNG            PNG                     "res\\Rabbit10.png"
+SNOW01.PNG              PNG                     "res\\Snow01.png"
+SNOW02.PNG              PNG                     "res\\Snow02.png"
+SNOW03.PNG              PNG                     "res\\Snow03.png"
+SNOW04.PNG              PNG                     "res\\Snow04.png"
+SNOW05.PNG              PNG                     "res\\Snow05.png"
+SNOW06.PNG              PNG                     "res\\Snow06.png"
+SNOW07.PNG              PNG                     "res\\Snow07.png"
+SNOW08.PNG              PNG                     "res\\Snow08.png"
+SNOW09.PNG              PNG                     "res\\Snow09.png"
+SNOW10.PNG              PNG                     "res\\Snow10.png"
+SNOW11.PNG              PNG                     "res\\Snow11.png"
+SNOW12.PNG              PNG                     "res\\Snow12.png"
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -100,13 +99,13 @@ SNOW12.PNG				PNG                     "res\\Snow12.png"
 //
 
 IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
-STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "关于 AnimationShow"
 FONT 9, "宋体", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
-    LTEXT           "AnimationShow 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
-    LTEXT           "Copyright (C) 2013",IDC_STATIC,40,25,119,8
+    LTEXT           "桌面动画演示 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2017\r\nhttp://www.ppsbbs.tech",IDC_STATIC,40,25,119,15
     DEFPUSHBUTTON   "确定",IDOK,178,7,50,16,WS_GROUP
 END
 
@@ -133,13 +132,13 @@ BEGIN
     BEGIN
         BLOCK "080403a8"
         BEGIN
-            VALUE "CompanyName", "TODO: <公司名>"
-            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "CompanyName", "PPSBBS"
+            VALUE "FileDescription", "http://www.ppsbbs.tech"
             VALUE "FileVersion", "1.0.0.1"
             VALUE "InternalName", "AnimationShow.exe"
-            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "LegalCopyright", "http://www.ppsbbs.tech。保留所有权利。"
             VALUE "OriginalFilename", "AnimationShow.exe"
-            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductName", "桌面动画演示"
             VALUE "ProductVersion", "1.0.0.1"
         END
     END
@@ -156,7 +155,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_ABOUTBOX, DIALOG
     BEGIN
@@ -174,12 +173,12 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_ABOUTBOX            "关于 AnimationShow(&A)..."
 END
 
-#endif    // 中文(中华人民共和国) resources
+#endif    // Chinese (Simplified, PRC) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

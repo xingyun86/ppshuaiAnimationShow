@@ -41,9 +41,9 @@ BOOL CMainWindow::Create(HWND hWndParent)
 	y=6;
 	int w=16;
 	int h=16;
-	AddControl(x,y,w,h,_T("XXX"));
+	AddControl(x,y,w,h,_T("论坛"));
 	x+=20;
-	AddControl(x,y,w,h,_T("XXX"));
+	AddControl(x,y,w,h,_T("论坛"));
 	x+=20;
 	AddControl(x,y,w,h,_T("退出本程序"));
 	//------------------------
@@ -174,10 +174,10 @@ void CMainWindow::OnLButtonUp(UINT nFlags, CPoint point)
 	switch (nIndex)
 	{
 	case 0:
-		ShellExecute(NULL,_T("Open"),_T("about:blank"),NULL,NULL,SW_SHOW);
+		ShellExecute(NULL, _T("Open"), _T("http://www.ppsbbs.tech"), NULL, NULL, SW_SHOW);
 		break;
 	case 1:
-		ShellExecute(NULL,_T("Open"),_T("about:blank"),NULL,NULL,SW_SHOW);
+		ShellExecute(NULL,_T("Open"),_T("http://www.ppsbbs.tech"),NULL,NULL,SW_SHOW);
 		break;
 	case 2:
 		PostMessage(WM_CLOSE);
@@ -186,7 +186,7 @@ void CMainWindow::OnLButtonUp(UINT nFlags, CPoint point)
 }
 LRESULT CMainWindow::OnMouseHover(WPARAM wParam,LPARAM lParam)
 {
-	//m_bShowBk=TRUE;
+	m_bShowBk=TRUE;
 	ReDrawWindow();
 	return 0;
 }
